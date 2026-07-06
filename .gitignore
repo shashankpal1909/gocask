@@ -1,0 +1,25 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+cmd/db-cli/db-cli
+cmd/db-server/db-server
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Database data directories, log files, and lock files
+*.data
+*.hint
+*.lock
+/tmp/
+/data/
+db_test_dir/
+
+# OS metadata
+.DS_Store
